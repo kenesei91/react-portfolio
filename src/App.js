@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./components/Header";
+import Project from "./components/Project";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
@@ -18,6 +20,7 @@ function App() {
     <div className="App">
       <Header />
       <Footer/>
+      <Project/>
     </div>
     
   );
