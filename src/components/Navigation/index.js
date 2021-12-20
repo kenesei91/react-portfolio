@@ -12,16 +12,22 @@ function Navigation(props) {
             </div>
           </NavLink>
           <ul class="navbar-nav ml-auto navitem-indent">
+          <li class="nav-item">
+              <NavLink to="/about">
+                <div class="nav-font text-light">Home</div>
+              </NavLink>
+            </li>
             <li class="nav-item">
               <NavLink to="/about">
                 <div class="nav-font text-light">About Me</div>
               </NavLink>
             </li>
             <li class="nav-item">
-              <NavLink to="/portfolio">
-                <div class="nav-font text-light">Portfolio</div>
-              </NavLink>
-            </li>
+            <NavLink to="/portfolio">
+              <div class="nav-font text-light">Portfolio</div>
+            </NavLink>
+          </li>
+        
             <li class="nav-item">
               <NavLink to="/contact">
                 <div class="nav-font text-light">Contact</div>
@@ -36,6 +42,6 @@ function Navigation(props) {
         </Navbar>
       </div>
     );
-  }
+}
   
-  export default Navigation;
+export default Navigation;
