@@ -7,8 +7,7 @@ function About() {
         <section className="container">
             <h2 class="top-title">Kenechukwu Ilochonwu</h2>
             <div>
-                <img class="mb-5" id="avatar" src={photo} />
-
+                <img class="mb-5" id="avatar" src={photo} alt='profile'/>
                 <p>
                 Kenechukwu Ilochonwu, also known as Ken by his close friends worked as an Environmental Specialist for four years specifically tasked to ensure the protection and conservation of natural resources as well as establishing best practices to resolve complex issues. Ken believes achieving success in the workplace begins with having a strong mind, body and spirit which he channels through physical sports, competitive gaming, and travelling. 
                 </p>
@@ -17,7 +16,7 @@ function About() {
                 </p>   
             </div>
         </section>
-    )
+    ) 
 }
 
 export default About;

@@ -37,7 +37,12 @@
   }
 }
 
-.mb-5 {
-  width: 30%;
-  height: 40%;
+#avatar {
+  width: 25%;
+  height: 28%;
+}
+
+.icon {
+  align-items: center;
+  text-align: center;
 }
