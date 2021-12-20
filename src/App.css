@@ -100,3 +100,15 @@ h2 {
 .nav-font {
   padding-left: 40px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.head {
+  font-weight: 900;
+}
+
+h4 {
+  font-weight: bold;
+}

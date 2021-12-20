@@ -6,6 +6,7 @@ function About() {
     return(
         <section className="container">
             <h2 class="top-title">Kenechukwu Ilochonwu</h2>
+            <hr></hr>
             <div>
                 <img class="mb-5" id="avatar" src={photo} alt='profile'/>
                 <p>

@@ -2,21 +2,21 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import {NavLink} from "react-router-dom";
 
-function Navigation(props) {
+function Navigation() {
     return (
       <div>
         <Navbar expand="lg" bg="dark" sticky="top">
-          <NavLink className="nav-link" to="/">
+          <NavLink className="nav-link" to="/about">
             <div class="text-light">
               <h4 class="nav-title-font">Kenechukwu Ilochonwu</h4>
             </div>
           </NavLink>
           <ul class="navbar-nav ml-auto navitem-indent">
-          <li class="nav-item">
-              <NavLink to="/about">
+          {/* <li class="nav-item">
+              <NavLink to="/home">
                 <div class="nav-font text-light">Home</div>
               </NavLink>
-            </li>
+            </li> */}
             <li class="nav-item">
               <NavLink to="/about">
                 <div class="nav-font text-light">About Me</div>
