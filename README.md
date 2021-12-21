@@ -46,7 +46,7 @@ Mock-Up.
 
 **This project has been deployed to GitHub Pages.** 
 
-- [Github Deploy](https://github.com/kenesei91/react-portfolio)
+- [Github Deploy](https://kenesei91.github.io/react-portfolio/)
 - [Github Pages](https://github.com/kenesei91/react-portfolio)
 
 
