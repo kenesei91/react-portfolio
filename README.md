@@ -47,6 +47,7 @@ Mock-Up.
 
 - [Github Deploy](https://kenesei91.github.io/react-portfolio/)
 - [Github Pages](https://github.com/kenesei91/react-portfolio)
+- [Walkthrough](https://watch.screencastify.com/v/rfG0opCIbblLU2LQPonO)
 
 
 
