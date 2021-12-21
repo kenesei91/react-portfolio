@@ -39,7 +39,6 @@ Mock-Up.
 ## Project Visual
 
 ![Project-Picture](./public/screenshot.png)
-- [x]Showing the originial state of the app
 
 
 ## Github pages and links
