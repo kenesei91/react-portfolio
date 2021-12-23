@@ -1,6 +1,9 @@
 import React from 'react'; 
 import ProjectCards from '../../components/Project';
 import portfolio from '../../portfolio.json';
+import {
+  MDBCol
+} from "mdb-react-ui-kit";
 
 function Wrapper(props) {
     return <div className="wrapper">{props.children}</div>;
@@ -11,7 +14,7 @@ function Portfolio () {
     return (
         <section className="container">
           <div className="project">
-            <h2 className="top-title">Portfolio</h2>
+            <h2 className="font-weight top-title">Portfolio</h2>
             <hr></hr>
           </div>
 
