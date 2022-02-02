@@ -13,7 +13,7 @@ import {
 function ProjectCards(props) {
   return (
     <MDBRow>
-      <MDBCol className="col-9">
+      <MDBCol className="col-12">
         <MDBCard shadow='0' border='info' style={{ maxWidth: "22rem" }}>
           <MDBCardImage src={props.image} position="top" alt={props.name} />
           <MDBCardBody>

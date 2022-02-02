@@ -41,83 +41,74 @@ function ContactForm() {
   }
 
   return (
-    <MDBContainer>
-      <h2 className="h1-responsive font-weight-bold text-center my-5">
-        Contact us
+    <section className="container">
+      <h2 className=" head top-title">
+        Contact Me
       </h2>
-      <p className="text-center w-responsive mx-auto pb-5">
-        Please feel free to contact me for questions concerning my work
-        experiences or questions concerning this portfolio in general.
-      </p>
-      <MDBRow>
-        <MDBCol md="9" className="md-0 mb-5">
-          <form>
-            <MDBRow>
-              <MDBCol md="12">
-                <div className="md-form mb-0">
-                  <MDBInput type="text" name="name"  defaultValue={name} onBlur={handleChange} id="contact-name" label="Your name" />
-                </div>
-              </MDBCol>
-              <MDBCol md="12">
-                <div className="md-form mb-0">
-                  <MDBInput type="text" name="email" defaultValue={email} onBlur={handleChange} id="contact-email" label="Your email" />
-                </div>
-              </MDBCol>
-              <MDBCol md="12">
-                <div className="md-form mb-0">
-                  <MDBInput
-                    type="textarea" name="message" defaultValue={message} onBlur={handleChange}
-                    id="contact-message"
-                    label="Your message"
-                  />
-                </div>
-              </MDBCol>
-              {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
+      <hr></hr>
+      <MDBContainer>
+        <MDBRow>
+          <MDBCol md="9" className="md-0 mb-5">
+            <form>
+              <MDBRow>
+                <MDBCol md="12">
+                  <div className="md-form mb-0">
+                    <MDBInput
+                      type="text"
+                      name="name"
+                      defaultValue={name}
+                      onBlur={handleChange}
+                      id="contact-name"
+                      label="Your name"
+                    />
+                  </div>
+                </MDBCol>
+                <MDBCol md="12">
+                  <div className="md-form mb-0">
+                    <MDBInput
+                      type="text"
+                      name="email"
+                      defaultValue={email}
+                      onBlur={handleChange}
+                      id="contact-email"
+                      label="Your email"
+                    />
+                  </div>
+                </MDBCol>
+                <MDBCol md="12">
+                  <div className="md-form mb-0">
+                    <MDBInput
+                      type="textarea"
+                      name="message"
+                      defaultValue={message}
+                      onBlur={handleChange}
+                      id="contact-message"
+                      label="Your message"
+                    />
+                  </div>
+                </MDBCol>
+                {errorMessage && (
+                  <div>
+                    <p className="error-text">{errorMessage}</p>
+                  </div>
                 )}
-            </MDBRow>
-          </form>
-          <div class="mt-5 mb-5">
-            <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
-          </div>
-        </MDBCol>
-      </MDBRow>
-      
-      
-    </MDBContainer>
-    
+              </MDBRow>
+            </form>
+            <div class="mt-5 mb-5">
+              <button
+                data-testid="button"
+                class="btn btn-outline-dark "
+                type="submit"
+                onSubmit={handleSubmit}
+              >
+                Submit
+              </button>
+            </div>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+    </section>
   );
 }
-
-//   return (
-//     <section className="container">
-//         <h2 data-testid='h1tag' className="top-title">Write to us</h2>
-//         <form class="boundary justify-content-center" id="contact-form">
-//             <div class="mt-5" >
-//                 <label htmlFor="name">Your Name:</label>
-//                 <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
-//             </div>
-//             <div class="mt-5" >
-//                 <label htmlFor="email">Your Email:</label>
-//                 <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
-//             </div>
-//             <div class="mt-5" >
-//                 <label htmlFor="message">Message:</label>
-//                 <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
-//             </div>
-//             {errorMessage && (
-//             <div>
-//                 <p className="error-text">{errorMessage}</p>
-//             </div>
-//             )}
-
-//             <div class="mt-5 mb-5" >
-//             <button data-testid='button' class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
-//             </div>
-//         </form>
-//     </section>
-//     );
 
 export default ContactForm;

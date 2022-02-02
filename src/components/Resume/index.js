@@ -10,10 +10,7 @@ function Resume() {
         <div class="mt-5">
           <h2 className="top-title">Kenechukwu Ilochonwu</h2>
           <p>
-          I am currently a full time environmental scientist, seeking opportunities in technology. 
-          </p>
-          <p>
-          Aspiring to becoming a full-stack web developer.
+          Full stack web developer with experience and knowledge creating quality, scalable, and high performance full stack web applications, educated at The University of Texas, Austin. Proficiency in front-end technologies using HTML, CSS, JavaScript, React, as well as back-end technologies using Node.js, Express.js, and database management using MYSQL and so on. Ability to communicate effectively in a team setting, and meet deadlines. Excited to work in a team environment to develop responsive, user friendly interactive websites and apps. More importantly, ability to take into account the end users and customers experiences, and ensuring a wholesome experience for both clients and end users.  
           </p>
         </div>
       </div>
@@ -23,10 +20,10 @@ function Resume() {
           <h2 className="top-title">Skills</h2>
           <ul>
             <li>
-            HTML, CSS (Bootstrap, HandleBars), JavaScript jQuery
+            HTML, HTML5, CSS (Bootstrap, MDBootstrap, Foundation CSS, HandleBars)
             </li>
             <li>
-            Node.js, Express.js, APIs
+            Node.js, Express.js, APIs, JavaScript, jQuery
             </li>
             <li>
             MongoDB, Mongoose, NoSQL
@@ -37,6 +34,9 @@ function Resume() {
             <li>
             React.js, IndexedDB
             </li>
+            <li>
+            GitHub
+            </li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,7 @@ function Resume() {
       <div class="justify-content-center mt-5">
           <div>
               <h2 className="top-title">Resume</h2>
-              <a href="https://my.indeed.com/resume/preview/file" target="blank">Download Resume</a>
+              <a href="https://docs.google.com/document/d/1DE0SLrkjCb8NqMpmoPEIX2wNn9cpJlj_6xWdjuIRBbY/edit?usp=sharing" target="blank">Download Resume</a>
           </div>
 
       </div>
