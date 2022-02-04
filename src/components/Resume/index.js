@@ -55,7 +55,14 @@ function Resume() {
                 Louisiana Tech University, Ruston, LA
               </p>
           </div>
-
+      </div>
+      <div class="justify-content-center mt-5">
+          <div>
+              <h2 className="top-title">Certificate</h2>
+              <p>
+                The University of Texas, Austin
+              </p>
+          </div>
       </div>
     </section>
   );
